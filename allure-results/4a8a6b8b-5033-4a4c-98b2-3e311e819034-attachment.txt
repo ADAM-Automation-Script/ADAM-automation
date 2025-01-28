@@ -1,0 +1,4 @@
+{
+  "using": "xpath",
+  "value": "//tbody//tr//td//div//span//button[@type='button']"
+}
