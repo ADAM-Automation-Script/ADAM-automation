@@ -23,10 +23,20 @@ exports.config = {
     // of the config file unless it's absolute.
     //
     specs: [
-        // ToDo: define location for spec files here
-        //'./test/specs/rfx-module/04-rfx-submitter-all-fields.js'
+        // Define location for spec files
+        
+        //HUB
+        'test/specs/HUB/RFX/**/*.js',
+        'test/specs/HUB/VRF/**/*.js',
+            
+        //ADAM
         'test/specs/ADAM/RFX/**/*.js',
-        'test/specs/HUB/RFX/**/*.js'
+        'test/specs/ADAM/VRF/**/*.js',
+        'test/specs/ADAM/RQ/**/*.js',
+        
+        //EVA
+        'test/specs/EVA/RFX/**/*.js',
+        'test/specs/EVA/VRF/**/*.js',
     ],
     // Patterns to exclude.
     exclude: [
